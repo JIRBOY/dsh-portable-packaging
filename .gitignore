@@ -1,0 +1,40 @@
+# Build/download outputs
+_downloads/
+_work/
+_validation/
+_recovery/
+release/
+dist/
+cache/
+tmp/
+logs/
+shell-profile/
+
+# User data and secrets
+.env
+.env.*
+*.credentials.yaml
+credentials/
+sessions/
+storages/
+home/.credentials.yaml
+home/sessions/
+home/storages/
+**/id_rsa
+**/id_ed25519
+**/*.pem
+**/*.pfx
+**/*.p12
+**/*.key
+
+# Build artifacts and editor noise
+*.bak
+*.part
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+__pycache__/

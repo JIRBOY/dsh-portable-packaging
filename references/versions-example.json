@@ -1,0 +1,46 @@
+{
+  "note": "Example versions from a verified build on 2026-11-06. This is not a compatibility promise; resolve current official versions and checksums at build time.",
+  "target": "windows-x64",
+  "kernel": {
+    "tag": "v0.4.3",
+    "commit": "38c0b12320a0d6287a32462647c7ef8490ca0986",
+    "archiveSha256": "06d3a72ebcea65e920be402a03ff38bc24ba9880824ae152d05c5085924e744e"
+  },
+  "node": {
+    "version": "24.21.0",
+    "url": "https://nodejs.org/dist/v24.21.0/node-v24.21.0-win-x64.zip",
+    "sha256": "158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e541"
+  },
+  "pnpm": {
+    "version": "11.28.5",
+    "url": "https://registry.npmjs.org/pnpm/-/pnpm-11.28.5.tgz"
+  },
+  "dsh": {
+    "version": "0.2.1-rc.5",
+    "url": "https://registry.npmjs.org/@deepseek-ai/dsh/0.2.1-rc.5"
+  },
+  "desktop": {
+    "version": "0.2.2-rc.1",
+    "channel": "nightly"
+  },
+  "powershell": {
+    "version": "7.6.9",
+    "url": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.9"
+  },
+  "gitForWindows": {
+    "version": "2.56.0.windows.4",
+    "url": "https://github.com/git-for-windows/git/releases/tag/v2.56.0.windows.4"
+  },
+  "python": {
+    "version": "3.13.17",
+    "url": "https://api.nuget.org/v3-flatcontainer/python/3.13.17/python.3.13.17.nupkg"
+  },
+  "dotnet": {
+    "sdk": "10.0.403",
+    "url": "https://dotnet.microsoft.com/download/dotnet/10.0"
+  },
+  "launcher": {
+    "framework": "Windows built-in .NET Framework 4.8",
+    "type": "WinForms WinExe"
+  }
+}
